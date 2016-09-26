@@ -1,0 +1,45 @@
+{
+  "name": "project",
+  "plural": "projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    }, 
+  "description": {
+      "type": "string"
+    },
+  "slug": {
+      "type": "string"
+    },
+    "tags": {
+      "type": [
+        "string"
+      ],
+    },
+  "thumnail": {
+      "type": "string"
+    },
+  "screenshots": {
+      "type": "string"
+    },
+  "created_at": {
+    "type": "date",
+  },
+  "updated_at": {
+    "type": "date",
+}
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
