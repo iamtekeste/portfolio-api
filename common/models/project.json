@@ -13,30 +13,24 @@
     },
     "subtitle": {
       "type": "string"
-    }, 
-  "description": {
+    },
+    "description": {
       "type": "string"
     },
-  "slug": {
+    "slug": {
       "type": "string"
     },
     "tags": {
       "type": [
         "string"
-      ],
+      ]
     },
-  "thumnail": {
+    "thumnail": {
       "type": "string"
     },
-  "screenshots": {
+    "screenshots": {
       "type": "string"
-    },
-  "created_at": {
-    "type": "date",
-  },
-  "updated_at": {
-    "type": "date",
-}
+    }
   },
   "validations": [],
   "relations": {},
