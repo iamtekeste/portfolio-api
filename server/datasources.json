@@ -1,1 +1,12 @@
-{}
+{
+  "mongo": {
+    "host": "dev",
+    "port": 27017,
+    "url": "",
+    "database": "portfolio_api",
+    "password": "",
+    "name": "mongo",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
